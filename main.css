@@ -5,10 +5,10 @@
 }
 
 body {
-  font-family: 'montserrat', sans-serif;
-  background-image: url('bg.jpg');
+  font-family: 'Montero', sans-serif;
   background-size: cover;
   background-position: top center;
+  background-color: #000;
 }
 
 .app-wrap {
@@ -18,14 +18,24 @@ body {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
 }
 
-header {
+h1 {
+  font-family: 'Montero ExtraBold', sans-serif;
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+
+header + search-box + input{
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px 15px 15px;
 }
 
-header input {
+header {
   width: 100%;
   max-width: 280px;
   padding: 10px 15px;
@@ -34,7 +44,6 @@ header input {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 16px 0px 16px 0px;
   border-bottom: 3px solid #DF8E00;
-  
   color: #313131;
   font-size: 20px;
   font-weight: 300;
